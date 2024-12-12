@@ -4,6 +4,7 @@
 This document provides a detailed guide for setting up Facebook Pixel, covering both client-side and server-side implementations, including integration with platforms like Everflow. 
 It explains how to track the “Lead” event (e.g., successful user actions such as form submissions) and verify the setup.
 
+[Facebook Pixel Helper](https://chrome.google.com/webstore/detail/facebook-pixel-helper) 
 ## Part 1: Client-Side Implementation
 
 ### Step 1: Obtain Your Facebook Pixel ID
@@ -185,6 +186,7 @@ app.get('/thank-you', async (req, res) => {
    - Dynamically embed the `FACEBOOK_PIXEL_ID` into the Thank You page using server-side rendering.
    - For Everflow, fetch the Pixel ID via the Everflow API and render it in the HTML template.
 3. **Verification:**
-   - Use tools like the Facebook Pixel Helper and Test Events Tool to validate your setup and track events successfully.
+   - Use tools like the [Facebook Pixel Helper](https://chrome.google.com/webstore/detail/facebook-pixel-helper) and Test Events Tool to validate your setup and track events successfully.
 
+   
 By combining these methods, you can implement a secure, flexible, and efficient tracking system for Facebook Pixel, ensuring accurate data collection for your campaigns.
